@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import "./globals.css";
+import Providers from "./Providers";
 
 export const metadata = {
   title: 'Rg Next App',
@@ -10,13 +11,15 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        {/* HEADER */}
-        <Header />
+        <Providers>
+          {/* HEADER */}
+           <Header />
         
-        {/* NAVBAR */}
+          {/* NAVBAR */}
 
-        {/* SEARCH BOX */}
-        {children}
+          {/* SEARCH BOX */}
+          {children}
+        </Providers> 
       </body>
     </html>
   )
