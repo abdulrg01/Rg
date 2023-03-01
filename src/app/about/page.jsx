@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function page() {
   return (
-    <div className='max-w-6xl mx-7 lg:mx-32 space-y-4'>
+    <div className='max-w-6xl mx-7 lg:mx-32 space-y-4 mt-4'>
         <h1 className='text-2xl font-medium text-amber-600'>About Page</h1>
 
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
